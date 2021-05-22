@@ -11,32 +11,56 @@
     <title>Tugas Praktikum 1</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="/">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/artikel">Artikel</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/contact">Contact us</a>
-              </li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" style="background-color: rgb(31, 140, 135)">
+      <div class="container">
+        <a class="navbar-brand" href="#">Venan Blog</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/artikel">Artikel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">Contact us</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
       <div class="container">
           <div class="row">
               <div class="col-10">
-                  <h1 class="mt-2">Hello, Content</h1>
+                  <h1 class="mt-2" >Macam - Macam Bahasa Pemrograman</h1>
               </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <p>
+                <h3>Java</h3>
+                Menjadi salah satu bahasa yang sangat populer karena dapat digunakan pada berbagai platform yang berbeda. Fleksibilitas ini menjadi fokus karena kini program diharuskan tak hanya optimal di satu platform namun juga dapat digunakan secara baik di banyak tipe perangkat. Kelebihan yang bisa didapatkan adalah Java masuk dalam pemrograman orientasi objek sehingga lebih mudah untuk developer memberikan output maksimal.
+              </p>
+              <p>
+                <h3>Bahasa C</h3>
+                Merupakan salah satu bahasa pemrograman yang paling awal ditemukan dan digunakan. Awal kemunculannya bisa ditarik hingga tahun 1970-an. Bahasa ini digunakan sebagai bahasa umum yang diajarkan di perguruan tinggi atau tempat kursus karena merupakan bahasa dasar yang sangat aplikatif di berbagai konteks pemrograman. Idealnya, pemahaman pada bahasa ini diperlukan untuk dapat memudahkan proses belajar penggunaan bahasa yang lain.
+              </p>
+              <p>
+                <h3>PHP</h3>
+                Hypertext Pre-Processor adalah bahasa yang juga populer di kalangan developer di Indonesia. Satu faktor yang menyebabkan bahasa ini populer adalah karena bahasa ini bisa digunakan secara gratis. Selain itu, penggunaan PHP lebih cenderung ke arah pengelolaan dan pembuatan web yang dinamis yang kini sangat banyak bermunculan karena keperluan bisnis dan pemasaran produk.
+              </p>
+              <p>
+                <h3>Phyton</h3>
+                Phyton adalah bahasa pemrograman tingkat tinggi namun mudah dipahami oleh pemula. Hal ini disebabkan karena pembacaannya menggunakan syntax tidak terlalu rumit. Phyton banyak digunakan oleh perusahaan besar dalam pengembangannya, seperti Instagram, Pinterest bahkan Google. Tentu bahasa ini memiliki kualitas yang cenderung baik karena perusahaan besar mengandalkan Phyton dalam pengembangan web-nya.
+              </p>
+              <p>
+                <h3>C++</h3>
+                C++ adalah bahasa yang dikembangkan dari bahasa C yang sebelumnya dibahas. Penulisannya hampir sama, namun terdapat perbedaan pada penyelesaian masalah. Jika pada bahasa C masalah diselesaikan dengan pembagian ke dalam sub masalah yang lebih kecil, C++ menyelesaikan masalah dengan pembagian ke dalam kelas-kelas tertentu sehingga proses penyelesaiannya dapat dilakukan lebih cepat dan efektif.
+              </p>
+            </div>
           </div>
       </div>
 

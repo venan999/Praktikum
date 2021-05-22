@@ -8,19 +8,22 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
+    {{-- Css Manual --}}
+    <link rel="stylesheet" href="css_manual/style.css">
     <title>Tugas Praktikum 1</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" style="background-color: rgb(28, 171, 163)">
         <div class="container">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#">Venan Blog</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" href="/">Home</a>
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/artikel">Artikel</a>
@@ -32,13 +35,14 @@
           </div>
         </div>
       </nav>
+      <!-- Akhir Navbar -->
       <div class="container">
-          <div class="row">
-              <div class="col-10">
-                  <h1 class="mt-2">Hello, world!</h1>
-              </div>
-          </div>
-      </div>
+        <div class="row text-center">
+            <div class="col-10">
+                <h1 class="mt-2">Selamat Datang Di Blog Saya</h1>
+            </div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 

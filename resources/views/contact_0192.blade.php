@@ -11,33 +11,57 @@
     <title>Tugas Praktikum 1</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="/">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/artikel">Artikel</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/contact">Contact us</a>
-              </li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" style="background-color: rgb(28, 171, 163)">
+      <div class="container">
+        <a class="navbar-brand" href="#">Venan Blog</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/artikel">Artikel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">Contact us</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
       <div class="container">
           <div class="row">
               <div class="col-10">
-                  <h1 class="mt-2">ini alamat saya</h1>
+                  <h1 class="mt-2">Contact Us</h1>
               </div>
           </div>
+          <img src="image/nanda.jpg" alt="" width="200" class="rounded mx-auto d-block">
+          <table class="table">
+            <tbody>
+              <tr>
+                
+                <td>Nama :</td>
+                <td>Kontak :</td>
+                <td>Email :</td>
+                <td>Social Media :</td>
+              </tr>
+              <tr>
+                
+                <td>Moch. Octa Venanda</td>
+                <td>085731525470</td>
+                <td>octananda98@gmail.com</td>
+                <td>Instagram : <a href="https://www.instagram.com/mo.venan"> mo.venan </a></td>
+              </tr>
+              <tr>
+                
+                <td colspan="3"></td>
+                <td>Facebook : <a href="https://ms-my.facebook.com/people/Moch-Octa-Venanda">  Moch. Octa Venanda </a></td>
+              </tr>
+            </tbody>
+          </table>
       </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
